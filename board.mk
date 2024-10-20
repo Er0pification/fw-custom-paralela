@@ -4,7 +4,7 @@ BOARDCPPSRC =  $(BOARD_DIR)/board_configuration.cpp \
     $(BOARD_DIR)/default_tune.cpp \
 
 
-
+IS_STM32F429 = yes
 # defines SHORT_BOARD_NAME
 include $(BOARD_DIR)/meta-info.env
 
